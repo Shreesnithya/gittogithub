@@ -39,3 +39,42 @@ JS CAN CHANGE THE STYLE OF THE HTML ELEMENT
         <button type="button " onclick="document.getElementById('hide').style.display='none'">Touch me!</button>
     </body>
 </html>-->
+<!--JAVASCRIPT CAN SHOW THE HIDDEN HTML ELEMENT
+<!DOCTYPE html>
+<html>
+    <main>
+        <h2>What Javascript can do with the HTML?</h2>
+    <body>
+        <P>Javascript can show the hidden Html element</P>
+        <p id="visible" style="display: none;">How dare you to hide me!</p>
+        <button type="button" onclick="document.getElementById('visible').style.display='block'">Touch Me!</button>
+    </body>
+    </main>
+</html>-->
+<!--In HTML <Script> tag JS code can be inserted
+    <!DOCTYPE HTML>
+    <HTML>
+        <body>
+            <h2>JAVASCRIPT IN BODY</h2>
+            <p id="insert"></p>
+            <script>
+                document.getElementById("insert").innerHTML="Hello blank";
+            </script>
+        </body>
+    </HTML>-->
+    <!--JAVASCRIPT FUNCTIONS IN HEAD SECTION
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <script>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML="Paragragh content changed";
+                }
+            </script>
+        </head>
+        <body>
+            <h2>JS Function in HEAD section</h2>
+            <p id="demo">Don't update me once call raised</p>
+            <button type="button" onclick="myFunction()">Try once!!!</button>
+        </body>
+    </html>-->
